@@ -1,0 +1,451 @@
+EESchema Schematic File Version 4
+LIBS:SLMMK1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1500 2850 0    50   Input ~ 0
+BP
+Text HLabel 1500 3050 0    50   Input ~ 0
+LP
+Text HLabel 2200 1350 0    50   Input ~ 0
+AR
+Text HLabel 2200 1650 0    50   Input ~ 0
+LFO
+Text HLabel 6100 2950 2    50   Output ~ 0
+MainOut
+$Comp
+L Switch:SW_SPDT SW6
+U 1 1 5BBBACEE
+P 1900 2950
+F 0 "SW6" H 1900 2625 50  0000 C CNN
+F 1 "SW_SPDT" H 1900 2716 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1900 2950 50  0001 C CNN
+F 3 "" H 1900 2950 50  0001 C CNN
+	1    1900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U3
+U 4 1 5BBBAE95
+P 4350 3100
+F 0 "U3" H 4250 2800 50  0000 C CNN
+F 1 "LM13700" H 4250 2900 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm" H 4050 3125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 4050 3125 50  0001 C CNN
+	4    4350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U3
+U 5 1 5BBBAEF8
+P 5200 1700
+F 0 "U3" H 5158 1746 50  0000 L CNN
+F 1 "LM13700" H 5158 1655 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm" H 4900 1725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 4900 1725 50  0001 C CNN
+	5    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5BBBAFFA
+P 2400 2950
+F 0 "R21" V 2193 2950 50  0000 C CNN
+F 1 "33K" V 2284 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2330 2950 50  0001 C CNN
+F 3 "~" H 2400 2950 50  0001 C CNN
+	1    2400 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5BBBB032
+P 2650 3150
+F 0 "R22" H 2580 3104 50  0000 R CNN
+F 1 "1K" H 2580 3195 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 3150 50  0001 C CNN
+F 3 "~" H 2650 3150 50  0001 C CNN
+	1    2650 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 2850 1700 2850
+Wire Wire Line
+	1700 3050 1500 3050
+Wire Wire Line
+	2100 2950 2250 2950
+$Comp
+L power:GND #PWR0127
+U 1 1 5BBBB6A7
+P 2650 3450
+F 0 "#PWR0127" H 2650 3200 50  0001 C CNN
+F 1 "GND" V 2655 3322 50  0000 R CNN
+F 2 "" H 2650 3450 50  0001 C CNN
+F 3 "" H 2650 3450 50  0001 C CNN
+	1    2650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U3
+U 3 1 5BBBAE4E
+P 3350 3150
+F 0 "U3" H 3350 2783 50  0000 C CNN
+F 1 "LM13700" H 3350 2874 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm" H 3050 3175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 3050 3175 50  0001 C CNN
+	3    3350 3150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3300 2650 3350
+Wire Wire Line
+	2650 3350 2900 3350
+Wire Wire Line
+	2900 3350 2900 3250
+Wire Wire Line
+	2900 3250 3050 3250
+Wire Wire Line
+	3050 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 2950
+Wire Wire Line
+	2900 2950 2650 2950
+Wire Wire Line
+	2650 2950 2650 3000
+Wire Wire Line
+	2550 2950 2650 2950
+Connection ~ 2650 2950
+Wire Wire Line
+	2650 3450 2650 3350
+Connection ~ 2650 3350
+$Comp
+L Device:R R24
+U 1 1 5BBBC5E0
+P 3800 3400
+F 0 "R24" H 3730 3354 50  0000 R CNN
+F 1 "100K" H 3730 3445 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 3400 50  0001 C CNN
+F 3 "~" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5BBBC61E
+P 3800 3650
+F 0 "#PWR0128" H 3800 3400 50  0001 C CNN
+F 1 "GND" V 3805 3522 50  0000 R CNN
+F 2 "" H 3800 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3650 3800 3550
+$Comp
+L Device:R R25
+U 1 1 5BBBC8A2
+P 3800 2750
+F 0 "R25" H 3730 2704 50  0000 R CNN
+F 1 "620K" H 3730 2795 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 2750 50  0001 C CNN
+F 3 "~" H 3800 2750 50  0001 C CNN
+	1    3800 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0129
+U 1 1 5BBBC8F1
+P 3800 2500
+F 0 "#PWR0129" H 3800 2350 50  0001 C CNN
+F 1 "+9V" H 3815 2673 50  0000 C CNN
+F 2 "" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2900 3800 3100
+Wire Wire Line
+	3650 3150 3800 3150
+Connection ~ 3800 3150
+Wire Wire Line
+	3800 3150 3800 3250
+Wire Wire Line
+	3800 2600 3800 2500
+Wire Wire Line
+	4050 3100 3800 3100
+Connection ~ 3800 3100
+Wire Wire Line
+	3800 3100 3800 3150
+$Comp
+L Device:R R26
+U 1 1 5BBBD354
+P 4550 3450
+F 0 "R26" H 4480 3404 50  0000 R CNN
+F 1 "100K" H 4480 3495 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4480 3450 50  0001 C CNN
+F 3 "~" H 4550 3450 50  0001 C CNN
+	1    4550 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-9V #PWR0130
+U 1 1 5BBBD3AE
+P 4550 3850
+F 0 "#PWR0130" H 4550 3725 50  0001 C CNN
+F 1 "-9V" H 4565 4023 50  0000 C CNN
+F 2 "" H 4550 3850 50  0001 C CNN
+F 3 "" H 4550 3850 50  0001 C CNN
+	1    4550 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 3850 4550 3600
+Wire Wire Line
+	4450 3200 4550 3200
+Wire Wire Line
+	4550 3200 4550 3300
+$Comp
+L Device:R_POT RV27
+U 1 1 5BBBDD1F
+P 5050 3200
+F 0 "RV27" V 4936 3200 50  0000 C CNN
+F 1 "100K" V 4845 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5050 3200 50  0001 C CNN
+F 3 "~" H 5050 3200 50  0001 C CNN
+	1    5050 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4550 3200
+$Comp
+L power:GND #PWR0131
+U 1 1 5BBBE03D
+P 5250 3200
+F 0 "#PWR0131" H 5250 2950 50  0001 C CNN
+F 1 "GND" V 5255 3072 50  0000 R CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 3200 5200 3200
+$Comp
+L Device:R R23
+U 1 1 5BBBE2BA
+P 5400 2950
+F 0 "R23" V 5607 2950 50  0000 C CNN
+F 1 "1K" V 5516 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5330 2950 50  0001 C CNN
+F 3 "~" H 5400 2950 50  0001 C CNN
+	1    5400 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C22
+U 1 1 5BBBE5CF
+P 5800 2950
+F 0 "C22" V 6052 2950 50  0000 C CNN
+F 1 "1uF" V 5961 2950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5800 2950 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2950 6100 2950
+Wire Wire Line
+	5550 2950 5650 2950
+Wire Wire Line
+	4550 3200 4900 3200
+Wire Wire Line
+	5050 3050 5050 2950
+Wire Wire Line
+	5050 2950 5250 2950
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 5BBC2149
+P 2500 1350
+F 0 "SW4" H 2500 1585 50  0000 C CNN
+F 1 "SW_SPST" H 2500 1494 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2500 1350 50  0001 C CNN
+F 3 "" H 2500 1350 50  0001 C CNN
+	1    2500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 5BBC217B
+P 2500 1650
+F 0 "SW5" H 2500 1885 50  0000 C CNN
+F 1 "SW_SPST" H 2500 1794 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2500 1650 50  0001 C CNN
+F 3 "" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV19
+U 1 1 5BBC26B5
+P 2350 2050
+F 0 "RV19" H 2280 2096 50  0000 R CNN
+F 1 "R_POT" H 2280 2005 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2350 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5BBC2758
+P 2950 1350
+F 0 "R16" V 2743 1350 50  0000 C CNN
+F 1 "470K" V 2834 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 1350 50  0001 C CNN
+F 3 "~" H 2950 1350 50  0001 C CNN
+	1    2950 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5BBC27B9
+P 2950 1650
+F 0 "R20" V 2743 1650 50  0000 C CNN
+F 1 "470K" V 2834 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 1650 50  0001 C CNN
+F 3 "~" H 2950 1650 50  0001 C CNN
+	1    2950 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5BBC27FB
+P 2950 2050
+F 0 "R18" V 2743 2050 50  0000 C CNN
+F 1 "470K" V 2834 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2880 2050 50  0001 C CNN
+F 3 "~" H 2950 2050 50  0001 C CNN
+	1    2950 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-9V #PWR0132
+U 1 1 5BBC2C5E
+P 2350 2250
+F 0 "#PWR0132" H 2350 2125 50  0001 C CNN
+F 1 "-9V" H 2365 2423 50  0000 C CNN
+F 2 "" H 2350 2250 50  0001 C CNN
+F 3 "" H 2350 2250 50  0001 C CNN
+	1    2350 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0133
+U 1 1 5BBC2CDD
+P 2350 1850
+F 0 "#PWR0133" H 2350 1700 50  0001 C CNN
+F 1 "+9V" H 2250 1900 50  0000 C CNN
+F 2 "" H 2350 1850 50  0001 C CNN
+F 3 "" H 2350 1850 50  0001 C CNN
+	1    2350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1850 2350 1900
+Wire Wire Line
+	2350 2200 2350 2250
+Wire Wire Line
+	2500 2050 2800 2050
+Wire Wire Line
+	2200 1650 2300 1650
+Wire Wire Line
+	2200 1350 2300 1350
+Wire Wire Line
+	2700 1350 2800 1350
+Wire Wire Line
+	2700 1650 2800 1650
+$Comp
+L Device:R R17
+U 1 1 5BBC4D73
+P 3200 2300
+F 0 "R17" H 3270 2346 50  0000 L CNN
+F 1 "150K" H 3270 2255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3130 2300 50  0001 C CNN
+F 3 "~" H 3200 2300 50  0001 C CNN
+	1    3200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-9V #PWR0134
+U 1 1 5BBC4ED3
+P 3200 2500
+F 0 "#PWR0134" H 3200 2375 50  0001 C CNN
+F 1 "-9V" H 3215 2673 50  0000 C CNN
+F 2 "" H 3200 2500 50  0001 C CNN
+F 3 "" H 3200 2500 50  0001 C CNN
+	1    3200 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 2500 3200 2450
+Wire Wire Line
+	3100 2050 3200 2050
+Wire Wire Line
+	3200 2050 3200 2150
+Wire Wire Line
+	3200 2050 3200 1850
+Wire Wire Line
+	3200 1650 3100 1650
+Connection ~ 3200 2050
+Wire Wire Line
+	3200 1650 3200 1350
+Wire Wire Line
+	3200 1350 3100 1350
+Connection ~ 3200 1650
+Wire Wire Line
+	3650 3050 3650 1850
+Wire Wire Line
+	3650 1850 3200 1850
+Connection ~ 3200 1850
+Wire Wire Line
+	3200 1850 3200 1650
+Text Label 2000 2100 2    50   ~ 0
+VCAInitialGain
+Text Label 5700 3600 2    100  ~ 0
+OutputLevel
+$Comp
+L power:-9V #PWR0135
+U 1 1 5BBCA91F
+P 5100 2000
+F 0 "#PWR0135" H 5100 1875 50  0001 C CNN
+F 1 "-9V" H 5115 2173 50  0000 C CNN
+F 2 "" H 5100 2000 50  0001 C CNN
+F 3 "" H 5100 2000 50  0001 C CNN
+	1    5100 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0136
+U 1 1 5BBCA950
+P 5100 1400
+F 0 "#PWR0136" H 5100 1250 50  0001 C CNN
+F 1 "+9V" H 5000 1450 50  0000 C CNN
+F 2 "" H 5100 1400 50  0001 C CNN
+F 3 "" H 5100 1400 50  0001 C CNN
+	1    5100 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3050 3150
+$EndSCHEMATC

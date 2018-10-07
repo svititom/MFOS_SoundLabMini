@@ -1,0 +1,583 @@
+EESchema Schematic File Version 4
+LIBS:SLMMK1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3700 3150 550  400 
+U 5BB9EB29
+F0 "AR" 50
+F1 "AR.sch" 50
+F2 "X3" I L 3700 3400 50 
+F3 "AR" O R 4250 3400 50 
+$EndSheet
+$Sheet
+S 6050 2400 300  550 
+U 5BB90427
+F0 "Noise Gen" 50
+F1 "NoiseGen.sch" 50
+F2 "NS" O B 6200 2950 50 
+$EndSheet
+$Sheet
+S 3700 4300 550  350 
+U 5BB90424
+F0 "LFO" 50
+F1 "LFO.sch" 50
+F2 "LFS" O R 4250 4550 50 
+F3 "LFO" O R 4250 4450 50 
+$EndSheet
+$Sheet
+S 7750 3450 850  500 
+U 5BB90952
+F0 "VCA" 50
+F1 "VCA.sch" 50
+F2 "BP" I L 7750 3550 50 
+F3 "LP" I L 7750 3650 50 
+F4 "AR" I L 7750 3800 50 
+F5 "LFO" I L 7750 3900 50 
+F6 "MainOut" O R 8600 3700 50 
+$EndSheet
+$Sheet
+S 6350 3350 950  650 
+U 5BB9042A
+F0 "VCF" 50
+F1 "VCF.sch" 50
+F2 "NS" I L 6350 3400 50 
+F3 "BP" O R 7300 3550 50 
+F4 "LP" O R 7300 3650 50 
+F5 "AR" I L 6350 3800 50 
+F6 "LFO" I L 6350 3900 50 
+F7 "OSC1" I L 6350 3550 50 
+F8 "OSC2" I L 6350 3650 50 
+$EndSheet
+Wire Wire Line
+	7500 4300 6150 4300
+Wire Wire Line
+	7300 3550 7750 3550
+Wire Wire Line
+	7300 3650 7750 3650
+Wire Wire Line
+	7500 3800 7750 3800
+Wire Wire Line
+	7500 3800 7500 4300
+Wire Wire Line
+	7750 3900 7650 3900
+Wire Wire Line
+	7650 3900 7650 4450
+Wire Wire Line
+	6200 3400 6350 3400
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5BB91329
+P 4200 1300
+F 0 "BT1" H 4318 1396 50  0000 L CNN
+F 1 "9V" H 4318 1305 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" V 4200 1360 50  0001 C CNN
+F 3 "~" V 4200 1360 50  0001 C CNN
+	1    4200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5BB9A156
+P 4200 1700
+F 0 "BT2" H 4318 1796 50  0000 L CNN
+F 1 "9V" H 4318 1705 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" V 4200 1760 50  0001 C CNN
+F 3 "~" V 4200 1760 50  0001 C CNN
+	1    4200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPST SW19
+U 1 1 5BB9A1A4
+P 5100 1450
+F 0 "SW19" H 5100 1775 50  0000 C CNN
+F 1 "SW_DPST" H 5100 1684 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5100 1450 50  0001 C CNN
+F 3 "" H 5100 1450 50  0001 C CNN
+	1    5100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C16
+U 1 1 5BB9A1F1
+P 5900 1250
+F 0 "C16" H 6015 1296 50  0000 L CNN
+F 1 "100uF" H 6015 1205 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 5900 1250 50  0001 C CNN
+F 3 "~" H 5900 1250 50  0001 C CNN
+	1    5900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C18
+U 1 1 5BB9A27D
+P 5900 1650
+F 0 "C18" H 6015 1696 50  0000 L CNN
+F 1 "100uF" H 6015 1605 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 5900 1650 50  0001 C CNN
+F 3 "~" H 5900 1650 50  0001 C CNN
+	1    5900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0112
+U 1 1 5BB9A2CF
+P 5900 850
+F 0 "#PWR0112" H 5900 700 50  0001 C CNN
+F 1 "+9V" H 5915 1023 50  0000 C CNN
+F 2 "" H 5900 850 50  0001 C CNN
+F 3 "" H 5900 850 50  0001 C CNN
+	1    5900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-9V #PWR0113
+U 1 1 5BB9A309
+P 5900 1950
+F 0 "#PWR0113" H 5900 1825 50  0001 C CNN
+F 1 "-9V" H 5915 2123 50  0000 C CNN
+F 2 "" H 5900 1950 50  0001 C CNN
+F 3 "" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5BB9A381
+P 4000 1500
+F 0 "#PWR0114" H 4000 1250 50  0001 C CNN
+F 1 "GND" V 4005 1372 50  0000 R CNN
+F 2 "" H 4000 1500 50  0001 C CNN
+F 3 "" H 4000 1500 50  0001 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5BB9A3A2
+P 6150 1450
+F 0 "#PWR0115" H 6150 1200 50  0001 C CNN
+F 1 "GND" V 6155 1322 50  0000 R CNN
+F 2 "" H 6150 1450 50  0001 C CNN
+F 3 "" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1450 4200 1450
+Wire Wire Line
+	4200 1450 4200 1400
+Wire Wire Line
+	4200 1450 4200 1500
+Connection ~ 4200 1450
+Wire Wire Line
+	4750 1800 4750 1550
+Wire Wire Line
+	4750 1550 4900 1550
+Wire Wire Line
+	4900 1350 4750 1350
+Wire Wire Line
+	4750 1350 4750 1100
+Wire Wire Line
+	4750 1100 4200 1100
+Wire Wire Line
+	5300 1350 5500 1350
+Wire Wire Line
+	5500 1350 5500 1100
+Wire Wire Line
+	5500 1100 5900 1100
+Wire Wire Line
+	5300 1550 5500 1550
+Wire Wire Line
+	5500 1550 5500 1800
+Wire Wire Line
+	5500 1800 5900 1800
+Wire Wire Line
+	5900 1950 5900 1800
+Connection ~ 5900 1800
+Wire Wire Line
+	5900 1100 5900 850 
+Connection ~ 5900 1100
+Wire Wire Line
+	5900 1400 5900 1450
+Wire Wire Line
+	6150 1450 5900 1450
+Connection ~ 5900 1450
+Wire Wire Line
+	5900 1450 5900 1500
+Wire Wire Line
+	6350 3800 6150 3800
+Wire Wire Line
+	6150 3800 6150 4300
+Wire Wire Line
+	6350 3900 6250 3900
+Wire Wire Line
+	6250 3900 6250 4450
+Wire Wire Line
+	6250 4450 7650 4450
+$Comp
+L Connector:AudioJack2_Ground J1
+U 1 1 5BBCB65C
+P 9050 3700
+F 0 "J1" H 8817 3679 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 8817 3770 50  0000 R CNN
+F 2 "" H 9050 3700 50  0001 C CNN
+F 3 "~" H 9050 3700 50  0001 C CNN
+	1    9050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 5BBCB747
+P 8750 3900
+F 0 "#PWR0137" H 8750 3650 50  0001 C CNN
+F 1 "GND" H 8755 3727 50  0000 C CNN
+F 2 "" H 8750 3900 50  0001 C CNN
+F 3 "" H 8750 3900 50  0001 C CNN
+	1    8750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3900 8750 3800
+Wire Wire Line
+	8750 3800 8850 3800
+Wire Wire Line
+	8850 3700 8600 3700
+$Sheet
+S 4950 2800 700  350 
+U 5BB9042D
+F0 "VCO1" 50
+F1 "VCO1.sch" 50
+F2 "X1" I L 4950 2850 50 
+F3 "AR" I L 4950 2950 50 
+F4 "LFO" I L 4950 3050 50 
+F5 "OSC_Sync" O R 5650 3000 50 
+F6 "OSC1" O R 5650 2900 50 
+$EndSheet
+Wire Wire Line
+	6200 2950 6200 3400
+$Sheet
+S 4950 3650 700  450 
+U 5BCAB8D3
+F0 "VCO2" 50
+F1 "VCO2.sch" 50
+F2 "X2" I L 4950 3800 50 
+F3 "AR" I L 4950 3900 50 
+F4 "LFO" I L 4950 4000 50 
+F5 "OSC_Sync" I L 4950 3700 50 
+F6 "OSC2" O R 5650 3750 50 
+$EndSheet
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 5BCB9EEB
+P 5250 3500
+F 0 "SW9" H 5250 3735 50  0000 C CNN
+F 1 "SW_SPST" H 5250 3644 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5250 3500 50  0001 C CNN
+F 3 "" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3000 5700 3000
+Wire Wire Line
+	5700 3000 5700 3500
+Wire Wire Line
+	5700 3500 5450 3500
+Wire Wire Line
+	5050 3500 4850 3500
+Wire Wire Line
+	4850 3500 4850 3700
+Wire Wire Line
+	4850 3700 4950 3700
+Wire Wire Line
+	4950 3050 4600 3050
+Wire Wire Line
+	4600 3050 4600 4000
+Wire Wire Line
+	4600 4000 4950 4000
+Wire Wire Line
+	6250 4450 4600 4450
+Wire Wire Line
+	4600 4450 4600 4000
+Connection ~ 6250 4450
+Connection ~ 4600 4000
+Wire Wire Line
+	6150 4300 4500 4300
+Wire Wire Line
+	4500 4300 4500 3900
+Connection ~ 6150 4300
+Wire Wire Line
+	4500 2950 4950 2950
+Wire Wire Line
+	4500 3900 4950 3900
+Connection ~ 4500 3900
+Wire Wire Line
+	4250 4450 4600 4450
+Connection ~ 4600 4450
+Text Label 4500 2950 0    50   ~ 0
+AR
+Text Label 4600 3050 0    50   ~ 0
+LFO
+Wire Wire Line
+	5650 2900 5900 2900
+Wire Wire Line
+	5900 2900 5900 3550
+Wire Wire Line
+	5900 3550 6350 3550
+Wire Wire Line
+	6350 3650 5900 3650
+Wire Wire Line
+	5900 3650 5900 3750
+Wire Wire Line
+	5900 3750 5650 3750
+$Sheet
+S 1150 3100 550  450 
+U 5BD74E14
+F0 "CVPal" 50
+F1 "CVPal.sch" 50
+F2 "CV1" O R 1700 3150 50 
+F3 "CV2" O R 1700 3250 50 
+F4 "Gate1" O R 1700 3350 50 
+F5 "Gate2" O R 1700 3450 50 
+$EndSheet
+$Comp
+L Switch:SW_SPDT SW20
+U 1 1 5BDCDAF5
+P 2950 2750
+F 0 "SW20" H 2950 2425 50  0000 C CNN
+F 1 "SW_SPDT" H 2950 2516 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2950 2750 50  0001 C CNN
+F 3 "" H 2950 2750 50  0001 C CNN
+	1    2950 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW21
+U 1 1 5BDCDB5F
+P 2950 3300
+F 0 "SW21" H 2950 2975 50  0000 C CNN
+F 1 "SW_SPDT" H 2950 3066 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2950 3300 50  0001 C CNN
+F 3 "" H 2950 3300 50  0001 C CNN
+	1    2950 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J4
+U 1 1 5BDCDBD3
+P 1550 2250
+F 0 "J4" H 1317 2229 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 1317 2320 50  0000 R CNN
+F 2 "" H 1550 2250 50  0001 C CNN
+F 3 "~" H 1550 2250 50  0001 C CNN
+	1    1550 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J5
+U 1 1 5BDCDCA5
+P 1550 2650
+F 0 "J5" H 1317 2629 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 1317 2720 50  0000 R CNN
+F 2 "" H 1550 2650 50  0001 C CNN
+F 3 "~" H 1550 2650 50  0001 C CNN
+	1    1550 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J6
+U 1 1 5BDCF147
+P 2450 3900
+F 0 "J6" H 2217 3879 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 2217 3970 50  0000 R CNN
+F 2 "" H 2450 3900 50  0001 C CNN
+F 3 "~" H 2450 3900 50  0001 C CNN
+	1    2450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J7
+U 1 1 5BDD7EDC
+P 2450 4250
+F 0 "J7" H 2217 4229 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 2217 4320 50  0000 R CNN
+F 2 "" H 2450 4250 50  0001 C CNN
+F 3 "~" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 3350 2150 3350
+Wire Wire Line
+	2150 3350 2150 3900
+Wire Wire Line
+	2150 3900 2250 3900
+Wire Wire Line
+	2250 4250 2000 4250
+Wire Wire Line
+	2000 4250 2000 3450
+Wire Wire Line
+	2000 3450 1700 3450
+$Comp
+L power:GND #PWR016
+U 1 1 5BDDF7EE
+P 2150 4450
+F 0 "#PWR016" H 2150 4200 50  0001 C CNN
+F 1 "GND" H 2155 4277 50  0000 C CNN
+F 2 "" H 2150 4450 50  0001 C CNN
+F 3 "" H 2150 4450 50  0001 C CNN
+	1    2150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4450 2150 4350
+Wire Wire Line
+	2150 4350 2250 4350
+Wire Wire Line
+	2150 4350 2150 4000
+Wire Wire Line
+	2150 4000 2250 4000
+Connection ~ 2150 4350
+Wire Wire Line
+	4500 2950 4500 3400
+Wire Wire Line
+	4250 3400 4500 3400
+Connection ~ 4500 3400
+Wire Wire Line
+	4500 3400 4500 3900
+Wire Wire Line
+	3350 3800 3350 3300
+Wire Wire Line
+	3350 3300 3150 3300
+Wire Wire Line
+	3350 3800 4950 3800
+Wire Wire Line
+	3300 2850 4950 2850
+Wire Wire Line
+	3300 2850 3300 2750
+Wire Wire Line
+	3300 2750 3150 2750
+Wire Wire Line
+	2750 3400 2350 3400
+Wire Wire Line
+	2350 3400 2350 3250
+Wire Wire Line
+	2350 3250 1700 3250
+Wire Wire Line
+	2750 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 3150
+Wire Wire Line
+	2350 3150 1700 3150
+Wire Wire Line
+	2750 3200 2450 3200
+Wire Wire Line
+	1750 2650 2450 2650
+Wire Wire Line
+	2450 2650 2450 3200
+Wire Wire Line
+	2650 2250 2650 2650
+Wire Wire Line
+	2650 2650 2750 2650
+Wire Wire Line
+	1750 2250 2650 2250
+$Comp
+L power:GND #PWR015
+U 1 1 5BE00494
+P 1850 2850
+F 0 "#PWR015" H 1850 2600 50  0001 C CNN
+F 1 "GND" H 1855 2677 50  0000 C CNN
+F 2 "" H 1850 2850 50  0001 C CNN
+F 3 "" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2850 1850 2750
+Wire Wire Line
+	1850 2750 1750 2750
+Wire Wire Line
+	1850 2350 1850 2750
+Wire Wire Line
+	1750 2350 1850 2350
+Connection ~ 1850 2750
+$Comp
+L Connector:AudioJack2_Ground J8
+U 1 1 5BE0EE55
+P 1550 1800
+F 0 "J8" H 1317 1779 50  0000 R CNN
+F 1 "AudioJack2_Ground" H 1317 1870 50  0000 R CNN
+F 2 "" H 1550 1800 50  0001 C CNN
+F 3 "~" H 1550 1800 50  0001 C CNN
+	1    1550 1800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1850 2350 1850 1900
+Wire Wire Line
+	1850 1900 1750 1900
+Connection ~ 1850 2350
+Wire Wire Line
+	1750 1800 3450 1800
+Wire Wire Line
+	3450 1800 3450 3400
+Wire Wire Line
+	3450 3400 3700 3400
+Wire Wire Line
+	4200 1800 4750 1800
+$Comp
+L Connector:Screw_Terminal_01x03 J9
+U 1 1 5BE22875
+P 3450 1450
+F 0 "J9" H 3370 1125 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 3370 1216 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 3450 1450 50  0001 C CNN
+F 3 "~" H 3450 1450 50  0001 C CNN
+	1    3450 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 1500 4000 1450
+Wire Wire Line
+	3650 1450 4000 1450
+Connection ~ 4000 1450
+Wire Wire Line
+	3650 1350 4000 1350
+Wire Wire Line
+	4000 1350 4000 1100
+Wire Wire Line
+	4000 1100 4200 1100
+Connection ~ 4200 1100
+Wire Wire Line
+	3900 1800 3900 1550
+Wire Wire Line
+	3900 1550 3650 1550
+Wire Wire Line
+	3900 1800 4200 1800
+Connection ~ 4200 1800
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 5BBA4B28
+P 8550 5100
+F 0 "#LOGO1" H 8550 5600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 8550 4700 50  0001 C CNN
+F 2 "" H 8550 5100 50  0001 C CNN
+F 3 "~" H 8550 5100 50  0001 C CNN
+	1    8550 5100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

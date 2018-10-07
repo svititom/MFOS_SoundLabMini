@@ -1,0 +1,809 @@
+EESchema Schematic File Version 4
+LIBS:SLMMK1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D7
+U 1 1 5BB9EE3E
+P 2600 2350
+F 0 "D7" H 2600 2134 50  0000 C CNN
+F 1 "1N914" H 2600 2225 50  0000 C CNN
+F 2 "" H 2600 2350 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R199
+U 1 1 5BB9EE45
+P 3000 2350
+F 0 "R199" V 2793 2350 50  0000 C CNN
+F 1 "10K" V 2884 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 2350 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q8
+U 1 1 5BB9EE4C
+P 3900 2350
+F 0 "Q8" H 4091 2396 50  0000 L CNN
+F 1 "2N3904" H 4091 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 2275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 2350 50  0001 L CNN
+	1    3900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BB9EE53
+P 3400 2350
+F 0 "R1" V 3193 2350 50  0000 C CNN
+F 1 "100K" V 3284 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3330 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D8
+U 1 1 5BB9EE5A
+P 3400 2750
+F 0 "D8" H 3400 2966 50  0000 C CNN
+F 1 "1N5239B" H 3400 2875 50  0000 C CNN
+F 2 "" H 3400 2750 50  0001 C CNN
+F 3 "~" H 3400 2750 50  0001 C CNN
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5BB9EE61
+P 4000 2850
+F 0 "#PWR0101" H 4000 2600 50  0001 C CNN
+F 1 "GND" H 4005 2677 50  0000 C CNN
+F 2 "" H 4000 2850 50  0001 C CNN
+F 3 "" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 2350 0    50   Input ~ 0
+X3
+Wire Wire Line
+	2250 2350 2450 2350
+Wire Wire Line
+	2750 2350 2850 2350
+Wire Wire Line
+	3150 2350 3200 2350
+Wire Wire Line
+	3550 2350 3700 2350
+Wire Wire Line
+	3250 2750 3200 2750
+Wire Wire Line
+	3200 2750 3200 2350
+Connection ~ 3200 2350
+Wire Wire Line
+	3200 2350 3250 2350
+Wire Wire Line
+	3550 2750 4000 2750
+Wire Wire Line
+	4000 2750 4000 2550
+Wire Wire Line
+	4000 2850 4000 2750
+Connection ~ 4000 2750
+Text Label 2050 2250 0    50   ~ 0
+ExtGateIn
+$Comp
+L Device:R R2
+U 1 1 5BB9EE75
+P 4750 2700
+F 0 "R2" H 4820 2746 50  0000 L CNN
+F 1 "1M" H 4820 2655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 2700 50  0001 C CNN
+F 3 "~" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BB9EE7C
+P 4750 1800
+F 0 "R3" H 4680 1754 50  0000 R CNN
+F 1 "4M7" H 4680 1845 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 1800 50  0001 C CNN
+F 3 "~" H 4750 1800 50  0001 C CNN
+	1    4750 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5BB9EE83
+P 4750 2950
+F 0 "#PWR0102" H 4750 2700 50  0001 C CNN
+F 1 "GND" H 4750 2800 50  0000 C CNN
+F 2 "" H 4750 2950 50  0001 C CNN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0103
+U 1 1 5BB9EE89
+P 4750 1550
+F 0 "#PWR0103" H 4750 1400 50  0001 C CNN
+F 1 "+9V" H 4765 1723 50  0000 C CNN
+F 2 "" H 4750 1550 50  0001 C CNN
+F 3 "" H 4750 1550 50  0001 C CNN
+	1    4750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5BB9EE8F
+P 4750 2250
+F 0 "SW1" V 4704 2348 50  0000 L CNN
+F 1 "SW_SPST" V 4795 2348 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4750 2250 50  0001 C CNN
+F 3 "" H 4750 2250 50  0001 C CNN
+	1    4750 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 1550 4750 1650
+Wire Wire Line
+	4750 1950 4750 2000
+Wire Wire Line
+	4750 2450 4750 2550
+Wire Wire Line
+	4750 2850 4750 2950
+Wire Wire Line
+	4750 2000 4000 2000
+Wire Wire Line
+	4000 2000 4000 2150
+Connection ~ 4750 2000
+Wire Wire Line
+	4750 2000 4750 2050
+$Comp
+L Device:C C2
+U 1 1 5BB9EE9E
+P 5450 2350
+F 0 "C2" H 5565 2396 50  0000 L CNN
+F 1 "1nF" H 5565 2305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5488 2200 50  0001 C CNN
+F 3 "~" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5BB9EEA5
+P 5450 2600
+F 0 "#PWR0104" H 5450 2350 50  0001 C CNN
+F 1 "GND" H 5450 2450 50  0000 C CNN
+F 2 "" H 5450 2600 50  0001 C CNN
+F 3 "" H 5450 2600 50  0001 C CNN
+	1    5450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2500 5450 2600
+Wire Wire Line
+	4750 2050 5450 2050
+Wire Wire Line
+	5450 2050 5450 2200
+Connection ~ 4750 2050
+$Comp
+L 74xx:74HC14 U1
+U 1 1 5BB9EEAF
+P 5950 2050
+F 0 "U1" H 5950 2367 50  0000 C CNN
+F 1 "74HC14" H 5950 2276 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5950 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5950 2050 50  0001 C CNN
+	1    5950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BB9EEB6
+P 6550 2050
+F 0 "C1" V 6298 2050 50  0000 C CNN
+F 1 "1nF" V 6389 2050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6588 1900 50  0001 C CNN
+F 3 "~" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BB9EEBD
+P 6750 2350
+F 0 "R4" H 6680 2304 50  0000 R CNN
+F 1 "100K" H 6680 2395 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6680 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5BB9EEC4
+P 6750 2600
+F 0 "#PWR0105" H 6750 2350 50  0001 C CNN
+F 1 "GND" H 6750 2450 50  0000 C CNN
+F 2 "" H 6750 2600 50  0001 C CNN
+F 3 "" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2050 5450 2050
+Connection ~ 5450 2050
+Wire Wire Line
+	6700 2050 6750 2050
+Wire Wire Line
+	6750 2050 6750 2200
+Wire Wire Line
+	6750 2500 6750 2600
+Text Label 4150 2250 0    50   ~ 0
+ManualGateTrig
+$Comp
+L Device:D D1
+U 1 1 5BB9EED0
+P 7050 2050
+F 0 "D1" H 7050 1834 50  0000 C CNN
+F 1 "1N914" H 7050 1925 50  0000 C CNN
+F 2 "" H 7050 2050 50  0001 C CNN
+F 3 "~" H 7050 2050 50  0001 C CNN
+	1    7050 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BB9EED7
+P 7500 2050
+F 0 "D2" H 7500 2266 50  0000 C CNN
+F 1 "1N914" H 7500 2175 50  0000 C CNN
+F 2 "" H 7500 2050 50  0001 C CNN
+F 3 "~" H 7500 2050 50  0001 C CNN
+	1    7500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2050 6900 2050
+Connection ~ 6750 2050
+Wire Wire Line
+	7200 2050 7300 2050
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5BB9EEE1
+P 8050 2050
+F 0 "SW2" H 8050 2285 50  0000 C CNN
+F 1 "SW_SPST" H 8050 2194 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8050 2050 50  0001 C CNN
+F 3 "" H 8050 2050 50  0001 C CNN
+	1    8050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 4 1 5BB9EEE8
+P 8700 2050
+F 0 "U1" H 8700 1733 50  0000 C CNN
+F 1 "74HC14" H 8700 1824 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 8700 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 8700 2050 50  0001 C CNN
+	4    8700 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BB9EEEF
+P 9200 1700
+F 0 "R5" H 9130 1654 50  0000 R CNN
+F 1 "2M" H 9130 1745 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 1700 50  0001 C CNN
+F 3 "~" H 9200 1700 50  0001 C CNN
+	1    9200 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0106
+U 1 1 5BB9EEF6
+P 9200 1500
+F 0 "#PWR0106" H 9200 1350 50  0001 C CNN
+F 1 "+9V" H 9215 1673 50  0000 C CNN
+F 2 "" H 9200 1500 50  0001 C CNN
+F 3 "" H 9200 1500 50  0001 C CNN
+	1    9200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BB9EEFC
+P 9200 2400
+F 0 "R7" H 9130 2354 50  0000 R CNN
+F 1 "3M" H 9130 2445 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 2400 50  0001 C CNN
+F 3 "~" H 9200 2400 50  0001 C CNN
+	1    9200 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 2050 8400 2050
+Wire Wire Line
+	9200 1500 9200 1550
+$Comp
+L Amplifier_Operational:TL072 U2
+U 2 1 5BB9EF05
+P 8850 3200
+F 0 "U2" H 8850 3500 50  0000 C CNN
+F 1 "TL072" H 8850 3400 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 8850 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 3200 50  0001 C CNN
+	2    8850 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5BB9EF0C
+P 8450 2650
+F 0 "R14" H 8380 2604 50  0000 R CNN
+F 1 "100K" H 8380 2695 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 2650 50  0001 C CNN
+F 3 "~" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0107
+U 1 1 5BB9EF13
+P 8450 2450
+F 0 "#PWR0107" H 8450 2300 50  0001 C CNN
+F 1 "+9V" H 8465 2623 50  0000 C CNN
+F 2 "" H 8450 2450 50  0001 C CNN
+F 3 "" H 8450 2450 50  0001 C CNN
+	1    8450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5BB9EF19
+P 8850 2850
+F 0 "R12" V 8643 2850 50  0000 C CNN
+F 1 "100K" V 8734 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 2850 50  0001 C CNN
+F 3 "~" H 8850 2850 50  0001 C CNN
+	1    8850 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 3100 8450 3100
+Wire Wire Line
+	8450 3100 8450 2850
+Wire Wire Line
+	8700 2850 8450 2850
+Connection ~ 8450 2850
+Wire Wire Line
+	8450 2850 8450 2800
+Wire Wire Line
+	9200 2850 9200 3200
+Wire Wire Line
+	9200 3200 9150 3200
+$Comp
+L Device:R R13
+U 1 1 5BB9EF27
+P 9200 3450
+F 0 "R13" H 9270 3496 50  0000 L CNN
+F 1 "2M" H 9270 3405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 3450 50  0001 C CNN
+F 3 "~" H 9200 3450 50  0001 C CNN
+	1    9200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 2 1 5BB9EF2E
+P 7300 5350
+F 0 "U1" H 7300 5667 50  0000 C CNN
+F 1 "74HC14" H 7300 5576 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 7300 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 5350 50  0001 C CNN
+	2    7300 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 3 1 5BB9EF35
+P 6600 5350
+F 0 "U1" H 6600 5667 50  0000 C CNN
+F 1 "74HC14" H 6600 5576 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 6600 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6600 5350 50  0001 C CNN
+	3    6600 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5BB9EF3C
+P 6050 5350
+F 0 "D5" H 6050 5566 50  0000 C CNN
+F 1 "1N914" H 6050 5475 50  0000 C CNN
+F 2 "" H 6050 5350 50  0001 C CNN
+F 3 "~" H 6050 5350 50  0001 C CNN
+	1    6050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3200 9200 3300
+Connection ~ 9200 3200
+Wire Wire Line
+	7000 5350 6900 5350
+Wire Wire Line
+	6300 5350 6200 5350
+Wire Wire Line
+	9000 2850 9200 2850
+Wire Wire Line
+	9200 2850 9200 2550
+Connection ~ 9200 2850
+Wire Wire Line
+	9000 2050 9200 2050
+Wire Wire Line
+	9200 2050 9200 2250
+Wire Wire Line
+	9200 1850 9200 2050
+Connection ~ 9200 2050
+$Comp
+L Device:R_POT RV15
+U 1 1 5BB9EF4E
+P 9750 3400
+F 0 "RV15" H 9680 3446 50  0000 R CNN
+F 1 "100K" H 9680 3355 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9750 3400 50  0001 C CNN
+F 3 "~" H 9750 3400 50  0001 C CNN
+	1    9750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-9V #PWR0108
+U 1 1 5BB9EF55
+P 9750 3650
+F 0 "#PWR0108" H 9750 3525 50  0001 C CNN
+F 1 "-9V" H 9765 3823 50  0000 C CNN
+F 2 "" H 9750 3650 50  0001 C CNN
+F 3 "" H 9750 3650 50  0001 C CNN
+	1    9750 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9200 3200 9750 3200
+Wire Wire Line
+	9750 3200 9750 3250
+Wire Wire Line
+	9750 3550 9750 3650
+Text HLabel 10050 3400 2    50   Output ~ 0
+AR
+Text Label 9950 3300 0    50   ~ 0
+ARGeneratorOutputLevel
+$Comp
+L Device:C C3
+U 1 1 5BB9EF60
+P 8150 4250
+F 0 "C3" H 8265 4296 50  0000 L CNN
+F 1 "2uF" H 8265 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8188 4100 50  0001 C CNN
+F 3 "~" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5BB9EF67
+P 8150 4450
+F 0 "#PWR0109" H 8150 4200 50  0001 C CNN
+F 1 "GND" H 8150 4300 50  0000 C CNN
+F 2 "" H 8150 4450 50  0001 C CNN
+F 3 "" H 8150 4450 50  0001 C CNN
+	1    8150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4450 8150 4400
+$Comp
+L Device:R_POT RV10
+U 1 1 5BB9EF6E
+P 7900 3650
+F 0 "RV10" V 7786 3650 50  0000 C CNN
+F 1 "1M" V 7695 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7900 3650 50  0001 C CNN
+F 3 "~" H 7900 3650 50  0001 C CNN
+	1    7900 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV11
+U 1 1 5BB9EF75
+P 7900 4000
+F 0 "RV11" V 7786 4000 50  0000 C CNN
+F 1 "1M" V 7695 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7900 4000 50  0001 C CNN
+F 3 "~" H 7900 4000 50  0001 C CNN
+	1    7900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5BB9EF7C
+P 7450 4000
+F 0 "D4" H 7450 4216 50  0000 C CNN
+F 1 "1N914" H 7450 4125 50  0000 C CNN
+F 2 "" H 7450 4000 50  0001 C CNN
+F 3 "~" H 7450 4000 50  0001 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5BB9EF83
+P 7450 3650
+F 0 "D3" H 7450 3434 50  0000 C CNN
+F 1 "1N914" H 7450 3525 50  0000 C CNN
+F 2 "" H 7450 3650 50  0001 C CNN
+F 3 "~" H 7450 3650 50  0001 C CNN
+	1    7450 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 2450 8450 2500
+Wire Wire Line
+	8050 4000 8150 4000
+Connection ~ 8150 3650
+Wire Wire Line
+	8150 3650 8050 3650
+Wire Wire Line
+	7900 3850 7900 3800
+Wire Wire Line
+	7900 3800 8150 3800
+Wire Wire Line
+	8150 3650 8150 3800
+Connection ~ 8150 3800
+Wire Wire Line
+	8150 3800 8150 4000
+Wire Wire Line
+	8150 3450 8150 3650
+Wire Wire Line
+	7600 3650 7750 3650
+Wire Wire Line
+	7600 4000 7750 4000
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 5BB9EF96
+P 6550 3800
+F 0 "SW3" H 6550 3475 50  0000 C CNN
+F 1 "SW_SPDT" H 6550 3566 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6550 3800 50  0001 C CNN
+F 3 "" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 3500 7900 3450
+Wire Wire Line
+	7900 3450 8150 3450
+$Comp
+L 74xx:74HC14 U1
+U 6 1 5BB9EF9F
+P 5350 4850
+F 0 "U1" H 5350 5167 50  0000 C CNN
+F 1 "74HC14" H 5350 5076 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5350 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5350 4850 50  0001 C CNN
+	6    5350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U1
+U 7 1 5BB9EFA6
+P 3150 4300
+F 0 "U1" H 3380 4346 50  0000 L CNN
+F 1 "74HC14" H 3380 4255 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 3150 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 3150 4300 50  0001 C CNN
+	7    3150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5BB9EFAD
+P 5350 4450
+F 0 "R9" V 5557 4450 50  0000 C CNN
+F 1 "1M" V 5466 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 4450 50  0001 C CNN
+F 3 "~" H 5350 4450 50  0001 C CNN
+	1    5350 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5BB9EFB4
+P 5350 4150
+F 0 "R8" V 5557 4150 50  0000 C CNN
+F 1 "1M" V 5466 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 4150 50  0001 C CNN
+F 3 "~" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7300 2050
+Wire Wire Line
+	7300 2050 7350 2050
+Wire Wire Line
+	7300 3650 7200 3650
+Wire Wire Line
+	7200 3650 7200 3800
+Wire Wire Line
+	7200 3800 7150 3800
+Wire Wire Line
+	7200 3800 7200 4000
+Wire Wire Line
+	7200 4000 7300 4000
+Connection ~ 7200 3800
+$Comp
+L Device:R R6
+U 1 1 5BB9EFC3
+P 7000 3800
+F 0 "R6" V 7207 3800 50  0000 C CNN
+F 1 "510R" V 7116 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6930 3800 50  0001 C CNN
+F 3 "~" H 7000 3800 50  0001 C CNN
+	1    7000 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 2050 6300 2050
+$Comp
+L 74xx:74HC14 U1
+U 5 1 5BB9EFCB
+P 5350 3850
+F 0 "U1" H 5350 4167 50  0000 C CNN
+F 1 "74HC14" H 5350 4076 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5350 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5350 3850 50  0001 C CNN
+	5    5350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4850 4950 4850
+Wire Wire Line
+	4950 4850 4950 4450
+Wire Wire Line
+	4950 4450 5200 4450
+Wire Wire Line
+	5500 4450 5800 4450
+Wire Wire Line
+	5800 4450 5800 3850
+Wire Wire Line
+	5800 3850 5650 3850
+Wire Wire Line
+	5650 4850 5700 4850
+Wire Wire Line
+	5700 4850 5700 4150
+Wire Wire Line
+	5700 4150 5500 4150
+Wire Wire Line
+	5200 4150 4900 4150
+Wire Wire Line
+	4900 4150 4900 3850
+Wire Wire Line
+	4900 3850 5050 3850
+Connection ~ 4950 4850
+Connection ~ 5700 4850
+Wire Wire Line
+	5900 5350 4950 5350
+Wire Wire Line
+	4950 4850 4950 5350
+Wire Wire Line
+	9200 5350 9200 3600
+Wire Wire Line
+	7600 5350 9200 5350
+Wire Wire Line
+	6750 3800 6850 3800
+Wire Wire Line
+	7300 3050 4900 3050
+Wire Wire Line
+	4900 3050 4900 3850
+Wire Wire Line
+	7300 2050 7300 3050
+Connection ~ 4900 3850
+Wire Wire Line
+	6300 2050 6300 3700
+Wire Wire Line
+	6300 3700 6350 3700
+Connection ~ 6300 2050
+Wire Wire Line
+	6300 2050 6400 2050
+Wire Wire Line
+	6350 3900 6350 4850
+Wire Wire Line
+	5700 4850 6350 4850
+Wire Wire Line
+	8150 3450 8150 3300
+Connection ~ 8150 3450
+Wire Wire Line
+	8150 3300 8550 3300
+Wire Wire Line
+	8150 4000 8150 4100
+Connection ~ 8150 4000
+Text Label 7900 2200 0    50   ~ 0
+ARRepeat
+Wire Wire Line
+	7650 2050 7850 2050
+Text Label 6450 4050 0    50   ~ 0
+ARMode
+Text Label 6050 3700 0    50   ~ 0
+Gated
+Text Label 6100 3950 0    50   ~ 0
+Trig'd
+$Comp
+L power:-9V #PWR0110
+U 1 1 5BB9EFF9
+P 3150 4900
+F 0 "#PWR0110" H 3150 4775 50  0001 C CNN
+F 1 "-9V" H 3165 5073 50  0000 C CNN
+F 2 "" H 3150 4900 50  0001 C CNN
+F 3 "" H 3150 4900 50  0001 C CNN
+	1    3150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR0111
+U 1 1 5BB9EFFF
+P 3150 3750
+F 0 "#PWR0111" H 3150 3600 50  0001 C CNN
+F 1 "+9V" H 3165 3923 50  0000 C CNN
+F 2 "" H 3150 3750 50  0001 C CNN
+F 3 "" H 3150 3750 50  0001 C CNN
+	1    3150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3750 3150 3800
+Wire Wire Line
+	3150 4800 3150 4900
+$Comp
+L Amplifier_Operational:TL072 U2
+U 3 1 5BB9F007
+P 2650 4300
+F 0 "U2" H 2608 4346 50  0000 L CNN
+F 1 "TL072" H 2608 4255 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 2650 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2650 4300 50  0001 C CNN
+	3    2650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3800 2550 3800
+Wire Wire Line
+	2550 3800 2550 4000
+Connection ~ 3150 3800
+Wire Wire Line
+	2550 4600 2550 4800
+Wire Wire Line
+	2550 4800 3150 4800
+Connection ~ 3150 4800
+Wire Wire Line
+	9900 3400 10050 3400
+$EndSCHEMATC
