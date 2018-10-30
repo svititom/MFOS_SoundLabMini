@@ -420,7 +420,7 @@ AR Path="/5BB9042D/5BCAE52D" Ref="Q?"  Part="1"
 AR Path="/5BCAB8D3/5BCAE52D" Ref="Q4"  Part="1" 
 F 0 "Q4" H 5741 3554 50  0000 L CNN
 F 1 "2N3904" H 5741 3645 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5750 3525 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5750 3525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5550 3600 50  0001 L CNN
 	1    5550 3600
 	1    0    0    1   
@@ -433,7 +433,7 @@ AR Path="/5BB9042D/5BCAE534" Ref="Q?"  Part="1"
 AR Path="/5BCAB8D3/5BCAE534" Ref="Q2"  Part="1" 
 F 0 "Q2" H 5741 3046 50  0000 L CNN
 F 1 "2N3904" H 5741 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5750 2925 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5750 2925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5550 3000 50  0001 L CNN
 	1    5550 3000
 	1    0    0    -1  
@@ -560,19 +560,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 2750 6100 2750
 Connection ~ 6100 2350
-$Comp
-L Device:Q_NJFET_DGS Q?
-U 1 1 5BCAE57A
-P 6100 4150
-AR Path="/5BB9042D/5BCAE57A" Ref="Q?"  Part="1" 
-AR Path="/5BCAB8D3/5BCAE57A" Ref="Q6"  Part="1" 
-F 0 "Q6" V 6100 3850 50  0000 C CNN
-F 1 "Q_NJFET_DGS" V 6000 3750 50  0000 C CNN
-F 2 "" H 6300 4250 50  0001 C CNN
-F 3 "~" H 6100 4150 50  0001 C CNN
-	1    6100 4150
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:CP1 C?
 U 1 1 5BCAE581
@@ -833,7 +820,7 @@ U 1 1 5BCC8411
 P 8050 5050
 F 0 "D12" H 8050 4834 50  0000 C CNN
 F 1 "1N914" H 8050 4925 50  0000 C CNN
-F 2 "" H 8050 5050 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 8050 5050 50  0001 C CNN
 F 3 "~" H 8050 5050 50  0001 C CNN
 	1    8050 5050
 	-1   0    0    1   
@@ -844,7 +831,7 @@ U 1 1 5BCD0E6F
 P 8050 5600
 F 0 "D11" H 8050 5384 50  0000 C CNN
 F 1 "1N914" H 8050 5475 50  0000 C CNN
-F 2 "" H 8050 5600 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 8050 5600 50  0001 C CNN
 F 3 "~" H 8050 5600 50  0001 C CNN
 	1    8050 5600
 	-1   0    0    1   
@@ -1108,4 +1095,19 @@ F 3 "" H 7950 1750 50  0001 C CNN
 $EndComp
 Text Notes 7350 2400 0    50   ~ 0
 Pulse Width
+$Comp
+L Device:Q_NJFET_DSG Q6
+U 1 1 5BBF9910
+P 6100 4150
+F 0 "Q6" V 6336 4150 50  0000 C CNN
+F 1 "Q_NJFET_DSG" V 6427 4150 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 6300 4250 50  0001 C CNN
+F 3 "~" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	0    1    1    0   
+$EndComp
+Text Notes 2850 2300 0    50   ~ 0
+Fine\n
+Text Notes 3150 1700 0    50   ~ 0
+Coarse\n
 $EndSCHEMATC

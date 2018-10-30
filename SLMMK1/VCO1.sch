@@ -370,7 +370,7 @@ U 1 1 5BC4BF05
 P 5750 3900
 F 0 "Q3" H 5941 3854 50  0000 L CNN
 F 1 "2N3904" H 5941 3945 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 3825 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5950 3825 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5750 3900 50  0001 L CNN
 	1    5750 3900
 	1    0    0    1   
@@ -381,7 +381,7 @@ U 1 1 5BC4BF77
 P 5750 3300
 F 0 "Q1" H 5941 3346 50  0000 L CNN
 F 1 "2N3904" H 5941 3255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 3225 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5950 3225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5750 3300 50  0001 L CNN
 	1    5750 3300
 	1    0    0    -1  
@@ -496,17 +496,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 3050 6300 3050
 Connection ~ 6300 2650
-$Comp
-L Device:Q_NJFET_DGS Q5
-U 1 1 5BC59363
-P 6300 4450
-F 0 "Q5" V 6300 4150 50  0000 C CNN
-F 1 "Q_NJFET_DGS" V 6200 4050 50  0000 C CNN
-F 2 "" H 6500 4550 50  0001 C CNN
-F 3 "~" H 6300 4450 50  0001 C CNN
-	1    6300 4450
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:CP1 C8
 U 1 1 5BC5B376
@@ -748,4 +737,15 @@ Wire Wire Line
 Connection ~ 2050 2100
 Wire Wire Line
 	2050 2100 2050 2050
+$Comp
+L Device:Q_NJFET_DSG Q5
+U 1 1 5BBF95C4
+P 6300 4450
+F 0 "Q5" V 6536 4450 50  0000 C CNN
+F 1 "Q_NJFET_DSG" V 6627 4450 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 6500 4550 50  0001 C CNN
+F 3 "~" H 6300 4450 50  0001 C CNN
+	1    6300 4450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

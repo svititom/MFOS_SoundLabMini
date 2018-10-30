@@ -1,0 +1,295 @@
+Source:,D:\Kicad\SLMMK1\SLMMK1\SLMMK1.sch,,,,,
+Date:,22-Oct-18 23:18:28,,,,,
+Tool:,Eeschema (5.0.0),,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,215,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,BT1,9V,Device:Battery_Cell,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,~
+,,BT2,9V,Device:Battery_Cell,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,~
+,,C1,1nF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~
+,,C2,1nF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~
+,,C3,2uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~
+,,C4,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C5,560pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C6,100pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C7,100pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C8,1nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C9,1nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C10,100nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C11,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C12,100nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C13,2uF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C14,4.7nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C15,100nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C16,100uF,Device:CP1,Capacitors_THT:CP_Radial_D8.0mm_P2.50mm,~
+,,C17,330pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C18,100uF,Device:CP1,Capacitors_THT:CP_Radial_D8.0mm_P2.50mm,~
+,,C19,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C20,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C21,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C22,1uF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C23,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,C24,CP1,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+,,D1,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D2,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D3,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D4,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D5,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D6,LED,Device:LED,LEDs:LED_D5.0mm,~
+,,D7,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D8,1N5239B,Device:D_Zener,Diodes_SMD:D_SOD-123F,~
+,,D9,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D10,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D11,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D12,1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+,,D13,LED,Device:LED,LEDs:LED_D5.0mm,~
+,,D14,1N5227,Device:D_Zener,Diodes_SMD:D_SOD-123F,~
+,,D15,1N5227,Device:D_Zener,Diodes_SMD:D_SOD-123F,~
+,,J1,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:AudioJack_Out,~
+,,J2,USB_B,Connector:USB_B,Connectors:USB_B, ~
+,,J3,AVR-ISP-6,Connector:AVR-ISP-6,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm, ~
+,,J4,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:AudioJack_Out,~
+,,J5,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:AudioJack_Out,~
+,,J6,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:1340604,~
+,,J7,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:1340604,~
+,,J8,AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:AudioJack_Out,~
+,,J9,Screw_Terminal_01x03,Connector:Screw_Terminal_01x03,Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm,~
+,,L1,L,Device:L,Inductors_THT:L_Axial_L9.5mm_D4.0mm_P5.08mm_Vertical_Fastron_SMCC,~
+,,Q1,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q2,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q3,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q4,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q5,Q_NJFET_DSG,Device:Q_NJFET_DSG,TO_SOT_Packages_THT:TO-92_Inline_Wide,~
+,,Q6,Q_NJFET_DSG,Device:Q_NJFET_DSG,TO_SOT_Packages_THT:TO-92_Inline_Wide,~
+,,Q7,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q8,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,Q9,2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+,,R1,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R2,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R3,4M7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R4,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R5,2M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R6,510R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R7,3M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R8,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R9,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R10,510R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R11,510R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R12,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R13,2M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R14,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R15,475R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R16,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R17,150K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R18,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R19,475R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R20,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R21,33K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R22,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R23,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R24,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R25,620K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R26,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R27,R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R28,200K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R29,0R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R30,150K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R31,200K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R32,10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R33,150K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R34,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R35,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R36,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R37,68R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R38,68R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R39,150K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R40,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R41,4K7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R42,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R43,2.2K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R44,220R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R45,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R46,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R47,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R48,220R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R49,47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R50,39K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R51,220R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R52,39K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R53,220R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R54,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R56,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R57,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R59,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R60,2K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R61,2K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R62,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R63,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R64,10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R65,10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R66,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R67,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R68,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R69,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R70,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R72,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R73,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R74,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R75,47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R76,47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R77,220K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R78,220K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R79,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R80,20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R81,4K7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R82,220K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R83,220K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R84,200K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R86,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R87,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R88,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R89,200K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R91,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R93,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R94,510R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R95,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R96,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R97,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R98,1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R99,1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R100,4M7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R101,47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R102,10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R104,47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R199,10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R201,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R203,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R204,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R206,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R207,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R208,100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,R225,470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,RV1,100R,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV2,100R,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV10,1M,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV11,1M,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV15,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV19,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV27,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV29,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV37,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV38,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV44,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV48,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV55,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV58,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV85,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV90,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV92,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV202,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,RV205,100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+,,SW1,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW2,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW3,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW4,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW5,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW6,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW7,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW8,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW9,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW10,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW11,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW12,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW13,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW14,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW15,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW16,SW_SPDT_MSM,Switch:SW_SPDT_MSM,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW17,SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+,,SW18,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW19,SW_DPST,Switch:SW_DPST,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,
+,,SW20,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,SW21,SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+,,U1,74HC14,74xx:74HC14,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/gpn/sn74HC14
+,,U2,TL072,Amplifier_Operational:TL072,Housings_DIP:DIP-8_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+,,U3,LM13700,Amplifier_Operational:LM13700,Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm,http://www.ti.com/lit/ds/symlink/lm13700.pdf
+,,U4,LM13700,Amplifier_Operational:LM13700,Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm,http://www.ti.com/lit/ds/symlink/lm13700.pdf
+,,U5,TL074,Amplifier_Operational:TL074,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+,,U6,TL074,Amplifier_Operational:TL074,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+,,U7,TL074,Amplifier_Operational:TL074,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+,,U8,ATtiny84-20PU,MCU_Microchip_ATtiny:ATtiny84-20PU,Housings_DIP:DIP-14_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf
+,,U9,MCP4822,Analog_DAC:MCP4822,Housings_DIP:DIP-8_W7.62mm_Socket,http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+,,Y1,Crystal,Device:Crystal,Crystals:Crystal_HC49-U_Vertical,~
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,,,,,
+2,x,"C1, C2",1nF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~
+2,x,"C20, C21",18pF,,,
+3,x,C3,2uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~
+,,,,,,
+5,x,C5,560pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+6,x,"C6, C7",100pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+7,x,"C8, C9",1nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+8,-,"C4, C10, C11, C12, C15, C19, C23",100nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+9,x,C13,2uF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+10,x,"C14, C21",4.7nF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+11,-,"C16, C18",100uF,Device:CP1,Capacitors_THT:CP_Radial_D8.0mm_P2.50mm,~
+12,x,C17,330pF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+13,-,C22,1uF,Device:CP1,Capacitors_SMD:C_0805_HandSoldering,~
+14,x,"D1, D2, D3, D4, D5, D7, D9, D10, D11, D12",1N914,Device:D,Diodes_SMD:D_SOD-123F,~
+15,-,"D6, D13",LED,Device:LED,LEDs:LED_D5.0mm,~
+16,x,D8,1N5239B,Device:D_Zener,Diodes_SMD:D_SOD-123F,~
+17,x,"D14, D15",1N5227,Device:D_Zener,Diodes_SMD:D_SOD-123F,~
+18,x,"J1, J4, J5, J8",AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:AudioJack_Out,~
+19,x,J2,USB_B,Connector:USB_B,Connectors:USB_B, ~
+20,-,J3,AVR-ISP-6,Connector:AVR-ISP-6,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm, ~
+21,x,"J6, J7",AudioJack2_Ground,Connector:AudioJack2_Ground,TomsLib:1340604,~
+22,-,J9,Screw_Terminal_01x03,Connector:Screw_Terminal_01x03,Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm,~
+23,x,L1,L,Device:L,Inductors_THT:L_Axial_L9.5mm_D4.0mm_P5.08mm_Vertical_Fastron_SMCC,~
+24,ALI,"Q1, Q2, Q3, Q4, Q7, Q8, Q9",2N3904,Transistor_BJT:2N3904,TO_SOT_Packages_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+25,x,"Q5, Q6",Q_NJFET_DSG,Device:Q_NJFET_DSG,TO_SOT_Packages_THT:TO-92_Inline_Wide,~
+26,x,"R1, R4, R12, R14, R24, R26, R36, R54, R57, R62, R63, R68, R69, R73, R74, R79, R86, R93, R207, R208",100K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+27,x,"R2, R8, R9, R56, R59, R66, R67, R87, R91, R95, R96, R97, R99",1M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+28,x,"R3, R100",4M7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+29,x,"R5, R13",2M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+30,x,"R6, R10, R11, R94",510R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+31,x,R7,3M,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+32,x,"R15, R19",475R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+33,x,"R16, R18, R20, R201, R203, R204, R206, R225",470K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+34,x,"R17, R30, R33, R39",150K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+35,x,R21,33K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+36,-,"R22, R23, R34, R35, R45, R88, R98",1K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+37,x,R25,620K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+,,,,,,
+39,x,"R28, R31, R84, R89",200K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+40,-,R29,0R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+41,-,"R32, R64, R65, R102, R199",10K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+42,x,"R37, R38",68R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+43,x,"R40, R42, R46, R47, R70, R72, R80",20K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+44,x,"R41, R81",4K7,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+45,x,R43,2.2K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+46,x,"R44, R48, R51, R53",220R,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+47,x,"R49, R75, R76, R101, R104",47K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+48,x,"R50, R52",39K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+49,x,"R27, R60, R61",2K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+50,x,"R77, R78, R82, R83",220K,Device:R,Resistors_SMD:R_0805_HandSoldering,~
+51,x,"RV1, RV2",100R,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+52,x,"RV10, RV11",1M,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+53,x,"RV15, RV19, RV27, RV29, RV37, RV38, RV44, RV48, RV55, RV58, RV85, RV90, RV92, RV202, RV205",100K,Device:R_POT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~
+54,x,"SW1, SW2, SW4, SW5, SW7, SW8, SW9, SW11, SW12, SW13, SW14, SW15, SW17",SW_SPST,Switch:SW_SPST,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+55,x,"SW3, SW6, SW10, SW18, SW20, SW21",SW_SPDT,Switch:SW_SPDT,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+56,x,SW16,SW_SPDT_MSM,Switch:SW_SPDT_MSM,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,
+57,x,SW19,SW_DPST,Switch:SW_DPST,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,
+58,x,U1,74HC14,74xx:74HC14,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/gpn/sn74HC14
+59,x,U2,TL072,Amplifier_Operational:TL072,Housings_DIP:DIP-8_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+60,x,"U3, U4",LM13700,Amplifier_Operational:LM13700,Housings_SOIC:SOIC-16W_5.3x10.2mm_Pitch1.27mm,http://www.ti.com/lit/ds/symlink/lm13700.pdf
+61,x,"U5, U6, U7",TL074,Amplifier_Operational:TL074,Housings_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf
+62,x,U8,ATtiny84-20PU,MCU_Microchip_ATtiny:ATtiny84-20PU,Housings_DIP:DIP-14_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf
+63,x,U9,MCP4822,Analog_DAC:MCP4822,Housings_DIP:DIP-8_W7.62mm_Socket,http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+64,x,Y1,Crystal,Device:Crystal,Crystals:Crystal_HC49-U_Vertical,~

@@ -22,7 +22,7 @@ U 1 1 5BBB1640
 P 5100 3950
 F 0 "Q7" H 5291 3996 50  0000 L CNN
 F 1 "2N3904" H 5291 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5300 3875 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5300 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5100 3950 50  0001 L CNN
 	1    5100 3950
 	1    0    0    -1  
