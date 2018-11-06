@@ -379,7 +379,7 @@ F 1 "TL074" H 6000 4626 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5950 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6050 4550 50  0001 C CNN
 	1    6000 4350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U7
@@ -390,7 +390,7 @@ F 1 "TL074" H 7650 4526 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 7600 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7700 4450 50  0001 C CNN
 	2    7650 4250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U7

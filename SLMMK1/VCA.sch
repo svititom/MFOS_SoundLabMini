@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -194,7 +194,7 @@ L Device:R R26
 U 1 1 5BBBD354
 P 4550 3450
 F 0 "R26" H 4480 3404 50  0000 R CNN
-F 1 "100K" H 4480 3495 50  0000 R CNN
+F 1 "10K" H 4480 3495 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4480 3450 50  0001 C CNN
 F 3 "~" H 4550 3450 50  0001 C CNN
 	1    4550 3450

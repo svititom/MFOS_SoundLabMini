@@ -25,7 +25,7 @@ F 1 "2N3904" H 5291 3905 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5300 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5100 3950 50  0001 L CNN
 	1    5100 3950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 NoConn ~ 5200 4150
 $Comp
@@ -40,25 +40,14 @@ F 3 "~" H 5200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C15
-U 1 1 5BBB1709
-P 6250 3650
-F 0 "C15" V 6100 3650 50  0000 C CNN
-F 1 "100nF" V 6000 3650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6250 3650 50  0001 C CNN
-F 3 "~" H 6250 3650 50  0001 C CNN
-	1    6250 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R97
 U 1 1 5BBB1A37
-P 5950 3450
-F 0 "R97" H 6150 3400 50  0000 R CNN
-F 1 "1M" H 6150 3500 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5880 3450 50  0001 C CNN
-F 3 "~" H 5950 3450 50  0001 C CNN
-	1    5950 3450
+P 6500 3850
+F 0 "R97" H 6700 3800 50  0000 R CNN
+F 1 "1M" H 6700 3900 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6430 3850 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -219,40 +208,19 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0124
 U 1 1 5BBB351C
-P 5850 3250
-F 0 "#PWR0124" H 5850 3000 50  0001 C CNN
-F 1 "GND" V 5855 3122 50  0000 R CNN
-F 2 "" H 5850 3250 50  0001 C CNN
-F 3 "" H 5850 3250 50  0001 C CNN
-	1    5850 3250
-	0    1    1    0   
+P 6150 3250
+F 0 "#PWR0124" H 6150 3000 50  0001 C CNN
+F 1 "GND" V 6155 3122 50  0000 R CNN
+F 2 "" H 6150 3250 50  0001 C CNN
+F 3 "" H 6150 3250 50  0001 C CNN
+	1    6150 3250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6550 3250 6450 3250
 Connection ~ 6550 3250
 Wire Wire Line
-	5850 3250 5950 3250
-Wire Wire Line
-	5950 3300 5950 3250
-Connection ~ 5950 3250
-Wire Wire Line
-	5950 3250 6150 3250
-Wire Wire Line
-	6400 3650 6500 3650
-Wire Wire Line
-	6500 3650 6500 3450
-Wire Wire Line
-	6100 3650 5950 3650
-Wire Wire Line
-	5950 3650 5950 3600
-Wire Wire Line
-	5950 3650 5200 3650
-Wire Wire Line
 	5200 3650 5200 3550
-Connection ~ 5950 3650
-Wire Wire Line
-	5200 3650 5200 3750
-Connection ~ 5200 3650
 $Comp
 L power:+9V #PWR0125
 U 1 1 5BBB66A7
@@ -290,7 +258,7 @@ F 1 "TL074" H 6900 3626 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 6850 3450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6950 3550 50  0001 C CNN
 	3    6900 3350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U7
@@ -305,4 +273,38 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8250 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 3450 6600 3450
+$Comp
+L Device:CP1 C15
+U 1 1 5BBB1709
+P 6250 3650
+F 0 "C15" V 6100 3650 50  0000 C CNN
+F 1 "100nF" V 6000 3650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6250 3650 50  0001 C CNN
+F 3 "~" H 6250 3650 50  0001 C CNN
+	1    6250 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3750 5200 3650
+Connection ~ 5200 3650
+$Comp
+L power:GND #PWR0176
+U 1 1 5BE387EF
+P 6500 4000
+F 0 "#PWR0176" H 6500 3750 50  0001 C CNN
+F 1 "GND" V 6505 3872 50  0000 R CNN
+F 2 "" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3450 6500 3650
+Wire Wire Line
+	5200 3650 6100 3650
+Wire Wire Line
+	6400 3650 6500 3650
+Wire Wire Line
+	6500 3650 6500 3700
+Connection ~ 6500 3650
 $EndSCHEMATC

@@ -669,8 +669,6 @@ F 3 "~" H 8450 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 5850 5650 5050
-Wire Wire Line
 	5650 5050 5800 5050
 Wire Wire Line
 	6950 5850 6700 5850
@@ -773,10 +771,7 @@ F 3 "~" H 6300 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 5850 5650 5850
-Wire Wire Line
 	6300 6150 6600 6150
-Connection ~ 6300 5850
 Wire Wire Line
 	6300 5850 6700 5850
 $Comp
@@ -1110,4 +1105,19 @@ Text Notes 2850 2300 0    50   ~ 0
 Fine\n
 Text Notes 3150 1700 0    50   ~ 0
 Coarse\n
+$Comp
+L power:GND #PWR?
+U 1 1 5BE2936D
+P 5650 5100
+AR Path="/5BB9042D/5BE2936D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCAB8D3/5BE2936D" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR0179" H 5650 4850 50  0001 C CNN
+F 1 "GND" H 5655 4927 50  0000 C CNN
+F 2 "" H 5650 5100 50  0001 C CNN
+F 3 "" H 5650 5100 50  0001 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5050 5650 5100
 $EndSCHEMATC
